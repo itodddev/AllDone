@@ -17,6 +17,8 @@
 		507E136F28C4F60700D81784 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E136E28C4F60700D81784 /* LogoView.swift */; };
 		507E137128C5023000D81784 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E137028C5023000D81784 /* CustomTextField.swift */; };
 		507E137428C5100300D81784 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E137328C5100300D81784 /* EmailTextField.swift */; };
+		507E137628C51D0600D81784 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E137528C51D0600D81784 /* CustomSecureField.swift */; };
+		507E137828C51EC200D81784 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E137728C51EC200D81784 /* PasswordSecureField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		507E136E28C4F60700D81784 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		507E137028C5023000D81784 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		507E137328C5100300D81784 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		507E137528C51D0600D81784 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		507E137728C51EC200D81784 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 			children = (
 				507E137028C5023000D81784 /* CustomTextField.swift */,
 				507E137328C5100300D81784 /* EmailTextField.swift */,
+				507E137528C51D0600D81784 /* CustomSecureField.swift */,
+				507E137728C51EC200D81784 /* PasswordSecureField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -209,9 +215,11 @@
 				507E137128C5023000D81784 /* CustomTextField.swift in Sources */,
 				507E136B28C4F29700D81784 /* SignupView.swift in Sources */,
 				507E136F28C4F60700D81784 /* LogoView.swift in Sources */,
+				507E137828C51EC200D81784 /* PasswordSecureField.swift in Sources */,
 				507E136728C4F1AF00D81784 /* LoginView.swift in Sources */,
 				507E135728C4E2E000D81784 /* ContentView.swift in Sources */,
 				507E136D28C4F3A900D81784 /* BackgroundGradientView.swift in Sources */,
+				507E137628C51D0600D81784 /* CustomSecureField.swift in Sources */,
 				507E135528C4E2E000D81784 /* AllDoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

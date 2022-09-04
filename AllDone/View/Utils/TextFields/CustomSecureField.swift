@@ -1,5 +1,5 @@
 //
-//  CustomTextField.swift
+//  CustomSecureField.swift
 //  AllDone
 //
 //  Created by Todd James on 9/4/22.
@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-struct CustomTextField: View {
-  
+struct CustomSecureField: View {
   @Binding var text: String
   let placeholder: Text
   let imageName: String
@@ -29,7 +28,7 @@ struct CustomTextField: View {
           .frame(width: 20, height: 20)
           .foregroundColor(foregroundColor ?? Color(.init(white: 1, alpha: 0.8)))
         
-        TextField("", text: $text)
+        SecureField("", text: $text)
           .autocapitalization(.none)
           .foregroundColor(foregroundColor ?? Color(.init(white: 1, alpha: 0.8)))
       }
@@ -37,12 +36,12 @@ struct CustomTextField: View {
   }
 }
 
-struct CustomTextField_Previews: PreviewProvider {
-  static var previews: some View {
-    ZStack {
-      BackgroundGradientView()
-      
-      CustomTextField(text: .constant(""), placeholder: Text("Email"), imageName: "envelope", foregroundColor: .white)
+struct CustomSecureField_Previews: PreviewProvider {
+    static var previews: some View {
+      ZStack {
+        BackgroundGradientView()
+        
+        CustomSecureField(text: .constant(""), placeholder: Text("Password"), imageName: "lock")
+      }
     }
-  }
 }
