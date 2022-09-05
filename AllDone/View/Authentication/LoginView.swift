@@ -26,6 +26,29 @@ struct LoginView: View {
           PasswordSecureField(text: $password)
         }
         .padding(.horizontal, 32)
+        
+        HStack {
+          Spacer()
+          
+          Button {
+            
+          } label: {
+              Text("Forgot Password")
+                .foregroundColor(.white)
+                .font(.system(size: 13, weight: .semibold))
+                .padding(.top, 1)
+                .padding(.trailing, 43)
+          }
+          
+        }
+        
+        Button {
+          // Sigin
+        } label: {
+          AuthenticateButtonView(text: "Sign In")
+        }
+
+        Spacer()
       }
     }
   }
