@@ -13,42 +13,62 @@ struct LoginView: View {
   @State var password = ""
   
   var body: some View {
-    ZStack {
-      BackgroundGradientView()
-      
-      VStack {
-        LogoView()
-          .padding(.bottom, 25)
+    
+    NavigationView {
+      ZStack {
+        BackgroundGradientView()
         
-        VStack(spacing: 20) {
-          EmailTextField(text: $email)
-           
-          PasswordSecureField(text: $password)
-        }
-        .padding(.horizontal, 32)
-        
-        HStack {
-          Spacer()
+        VStack {
+          LogoView()
+            .padding(.bottom, 25)
           
-          Button {
+          VStack(spacing: 20) {
+            EmailTextField(text: $email)
+             
+            PasswordSecureField(text: $password)
+          }
+          .padding(.horizontal, 32)
+          
+          HStack {
+            Spacer()
             
-          } label: {
-              Text("Forgot Password")
-                .foregroundColor(.white)
-                .font(.system(size: 13, weight: .semibold))
-                .padding(.top, 1)
-                .padding(.trailing, 43)
+            Button {
+              
+            } label: {
+                Text("Forgot Password")
+                  .foregroundColor(.white)
+                  .font(.system(size: 13, weight: .semibold))
+                  .padding(.top, 1)
+                  .padding(.trailing, 43)
+            }
+            
           }
           
-        }
-        
-        Button {
-          // Sigin
-        } label: {
-          AuthenticateButtonView(text: "Sign In")
-        }
+          Button {
+            // Sigin
+          } label: {
+            AuthenticateButtonView(text: "Sign In")
+              .padding()
+          }
 
-        Spacer()
+          Spacer()
+          
+          NavigationLink {
+            SignupView()
+              .navigationBarHidden(true)
+          } label: {
+            HStack {
+              Text("Don't have an account?")
+                .font(.system(size: 14))
+              Text("Sign Up")
+                .font(.system(size: 14, weight: .semibold))
+            }
+            .foregroundColor(.white)
+          }
+          .padding(.bottom, 16)
+
+        }
+        .padding(.top, -44)
       }
     }
   }
