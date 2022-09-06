@@ -45,9 +45,24 @@ struct SignupView: View {
         }
         
         Spacer()
+        
+        Button {
+          mode.wrappedValue.dismiss() // returns to Sign In screen
+        } label: {
+          HStack {
+            Text("Already have an account?")
+              .font(.system(size: 14))
+            Text("Sign In")
+              .font(.system(size: 14, weight: .semibold))
+          }
+          .foregroundColor(.white)
+        }
+        .padding(.bottom, 16)
 
       }
+      .padding(.top, 50)
     } //: ZStack
+   
   }
 }
 

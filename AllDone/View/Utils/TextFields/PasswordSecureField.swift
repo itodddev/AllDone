@@ -25,7 +25,7 @@ struct PasswordSecureField_Previews: PreviewProvider {
     static var previews: some View {
       
       ZStack {
-        Background()
+        BackgroundGradientView()
         
         PasswordSecureField(text: .constant(""), placeholder: "Password")
       }
