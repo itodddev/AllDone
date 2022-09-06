@@ -10,9 +10,10 @@ import SwiftUI
 struct EmailTextField: View {
   
   @Binding var text: String
+  let placeholder: String
   
   var body: some View {
-    CustomTextField(text: $text, placeholder: Text("Email"), imageName: "envelope", foregroundColor: .white)
+    CustomTextField(text: $text, placeholder: Text(placeholder), imageName: "envelope", foregroundColor: .white)
       .padding()
       .background(Color(.init(white: 1, alpha: 0.15)))
       .cornerRadius(10)
@@ -25,7 +26,7 @@ struct EmailTextField_Previews: PreviewProvider {
     ZStack {
       BackgroundGradientView()
       
-      EmailTextField(text: .constant("Email Address"))
+      EmailTextField(text: .constant(""), placeholder: "Email")
     }
   }
 }

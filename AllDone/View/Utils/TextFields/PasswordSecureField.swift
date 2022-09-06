@@ -10,9 +10,10 @@ import SwiftUI
 struct PasswordSecureField: View {
   
   @Binding var text: String
+  let placeholder: String
   
     var body: some View {
-      CustomSecureField(text: $text, placeholder: Text("Password"), imageName: "lock", foregroundColor: .white)
+      CustomSecureField(text: $text, placeholder: Text(placeholder), imageName: "lock", foregroundColor: .white)
         .padding()
         .background(Color(.init(white: 1, alpha: 0.15)))
         .cornerRadius(10)
@@ -24,9 +25,9 @@ struct PasswordSecureField_Previews: PreviewProvider {
     static var previews: some View {
       
       ZStack {
-        BackgroundGradientView()
+        Background()
         
-        PasswordSecureField(text: .constant(""))
+        PasswordSecureField(text: .constant(""), placeholder: "Password")
       }
     }
 }

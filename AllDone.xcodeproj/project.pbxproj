@@ -20,6 +20,7 @@
 		507E137628C51D0600D81784 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E137528C51D0600D81784 /* CustomSecureField.swift */; };
 		507E137828C51EC200D81784 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E137728C51EC200D81784 /* PasswordSecureField.swift */; };
 		507E137A28C53A7A00D81784 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E137928C53A7A00D81784 /* AuthenticateButtonView.swift */; };
+		507E137C28C6748C00D81784 /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E137B28C6748C00D81784 /* UserTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		507E137528C51D0600D81784 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		507E137728C51EC200D81784 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		507E137928C53A7A00D81784 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
+		507E137B28C6748C00D81784 /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				507E137328C5100300D81784 /* EmailTextField.swift */,
 				507E137528C51D0600D81784 /* CustomSecureField.swift */,
 				507E137728C51EC200D81784 /* PasswordSecureField.swift */,
+				507E137B28C6748C00D81784 /* UserTextField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			files = (
 				507E137428C5100300D81784 /* EmailTextField.swift in Sources */,
 				507E137128C5023000D81784 /* CustomTextField.swift in Sources */,
+				507E137C28C6748C00D81784 /* UserTextField.swift in Sources */,
 				507E136B28C4F29700D81784 /* SignupView.swift in Sources */,
 				507E136F28C4F60700D81784 /* LogoView.swift in Sources */,
 				507E137828C51EC200D81784 /* PasswordSecureField.swift in Sources */,
