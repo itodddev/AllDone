@@ -14,6 +14,7 @@ struct DashboardView: View {
   
     var body: some View {
       VStack {
+        Text("Hello, \(user.firstName)")
         Text("Dashboard View")
         
         Button {

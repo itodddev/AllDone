@@ -40,6 +40,7 @@
 		5083DD3128CA463B005136DC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5083DD3028CA463B005136DC /* FirebaseFirestoreSwift */; };
 		5083DD3328CA463B005136DC /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 5083DD3228CA463B005136DC /* FirebaseFunctions */; };
 		5083DD3528CA463B005136DC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5083DD3428CA463B005136DC /* FirebaseStorage */; };
+		5083DD3728CA5931005136DC /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083DD3628CA5931005136DC /* TODOViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		5083DCE328C941F9005136DC /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		5083DCE528C944C1005136DC /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		5083DCE728C96222005136DC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		5083DD3628CA5931005136DC /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				5083DCE528C944C1005136DC /* AuthViewModel.swift */,
+				5083DD3628CA5931005136DC /* TODOViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				5083DCDC28C9217E005136DC /* Constants.swift in Sources */,
 				507E137A28C53A7A00D81784 /* AuthenticateButtonView.swift in Sources */,
 				507E135728C4E2E000D81784 /* ContentView.swift in Sources */,
+				5083DD3728CA5931005136DC /* TODOViewModel.swift in Sources */,
 				507E136D28C4F3A900D81784 /* BackgroundGradientView.swift in Sources */,
 				507E137628C51D0600D81784 /* CustomSecureField.swift in Sources */,
 				507E135528C4E2E000D81784 /* AllDoneApp.swift in Sources */,
