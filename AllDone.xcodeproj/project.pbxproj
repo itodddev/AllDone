@@ -30,6 +30,8 @@
 		5083DCE628C944C1005136DC /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083DCE528C944C1005136DC /* AuthViewModel.swift */; };
 		5083DCE828C96222005136DC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083DCE728C96222005136DC /* DashboardView.swift */; };
 		5083DD3728CA5931005136DC /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083DD3628CA5931005136DC /* TODOViewModel.swift */; };
+		508949E828D75D420044E544 /* TODOButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508949E728D75D420044E544 /* TODOButtonStack.swift */; };
+		508949EA28D764CA0044E544 /* AddTODOLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508949E928D764CA0044E544 /* AddTODOLogo.swift */; };
 		50DA7CB228D689E30010FA4E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 50DA7CB128D689E30010FA4E /* FirebaseAnalytics */; };
 		50DA7CB428D689E30010FA4E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 50DA7CB328D689E30010FA4E /* FirebaseAnalyticsSwift */; };
 		50DA7CB628D689E30010FA4E /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 50DA7CB528D689E30010FA4E /* FirebaseAnalyticsWithoutAdIdSupport */; };
@@ -70,6 +72,8 @@
 		5083DCE528C944C1005136DC /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		5083DCE728C96222005136DC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		5083DD3628CA5931005136DC /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
+		508949E728D75D420044E544 /* TODOButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOButtonStack.swift; sourceTree = "<group>"; };
+		508949E928D764CA0044E544 /* AddTODOLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTODOLogo.swift; sourceTree = "<group>"; };
 		50DA7CC728D68CC70010FA4E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +178,8 @@
 				507E136E28C4F60700D81784 /* LogoView.swift */,
 				507E137928C53A7A00D81784 /* AuthenticateButtonView.swift */,
 				50DA7CC728D68CC70010FA4E /* SearchBarView.swift */,
+				508949E728D75D420044E544 /* TODOButtonStack.swift */,
+				508949E928D764CA0044E544 /* AddTODOLogo.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 				5083DCE028C9252D005136DC /* TODO.swift in Sources */,
 				5083DCE828C96222005136DC /* DashboardView.swift in Sources */,
 				5083DCE628C944C1005136DC /* AuthViewModel.swift in Sources */,
+				508949E828D75D420044E544 /* TODOButtonStack.swift in Sources */,
 				50DA7CC828D68CC70010FA4E /* SearchBarView.swift in Sources */,
 				507E136F28C4F60700D81784 /* LogoView.swift in Sources */,
 				507E137828C51EC200D81784 /* PasswordSecureField.swift in Sources */,
@@ -315,6 +322,7 @@
 				507E136D28C4F3A900D81784 /* BackgroundGradientView.swift in Sources */,
 				507E137628C51D0600D81784 /* CustomSecureField.swift in Sources */,
 				507E135528C4E2E000D81784 /* AllDoneApp.swift in Sources */,
+				508949EA28D764CA0044E544 /* AddTODOLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
