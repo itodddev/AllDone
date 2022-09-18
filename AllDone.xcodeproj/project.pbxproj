@@ -32,6 +32,11 @@
 		5083DD3728CA5931005136DC /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083DD3628CA5931005136DC /* TODOViewModel.swift */; };
 		508949E828D75D420044E544 /* TODOButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508949E728D75D420044E544 /* TODOButtonStack.swift */; };
 		508949EA28D764CA0044E544 /* AddTODOLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508949E928D764CA0044E544 /* AddTODOLogo.swift */; };
+		508949EC28D79DD90044E544 /* TODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508949EB28D79DD90044E544 /* TODOView.swift */; };
+		508949EE28D7B0E40044E544 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508949ED28D7B0E40044E544 /* BlankView.swift */; };
+		508949F028D7B7ED0044E544 /* CreateTODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508949EF28D7B7ED0044E544 /* CreateTODOView.swift */; };
+		508949F228D7BEAD0044E544 /* TODOTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508949F128D7BEAD0044E544 /* TODOTextField.swift */; };
+		508949F428D7C0AA0044E544 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508949F328D7C0AA0044E544 /* CustomTextEditor.swift */; };
 		50DA7CB228D689E30010FA4E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 50DA7CB128D689E30010FA4E /* FirebaseAnalytics */; };
 		50DA7CB428D689E30010FA4E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 50DA7CB328D689E30010FA4E /* FirebaseAnalyticsSwift */; };
 		50DA7CB628D689E30010FA4E /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 50DA7CB528D689E30010FA4E /* FirebaseAnalyticsWithoutAdIdSupport */; };
@@ -74,6 +79,11 @@
 		5083DD3628CA5931005136DC /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
 		508949E728D75D420044E544 /* TODOButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOButtonStack.swift; sourceTree = "<group>"; };
 		508949E928D764CA0044E544 /* AddTODOLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTODOLogo.swift; sourceTree = "<group>"; };
+		508949EB28D79DD90044E544 /* TODOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOView.swift; sourceTree = "<group>"; };
+		508949ED28D7B0E40044E544 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		508949EF28D7B7ED0044E544 /* CreateTODOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTODOView.swift; sourceTree = "<group>"; };
+		508949F128D7BEAD0044E544 /* TODOTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOTextField.swift; sourceTree = "<group>"; };
+		508949F328D7C0AA0044E544 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
 		50DA7CC728D68CC70010FA4E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +156,7 @@
 				5083DCE728C96222005136DC /* DashboardView.swift */,
 				507E136928C4F26C00D81784 /* Authentication */,
 				507E136828C4F23E00D81784 /* Utils */,
+				508949EF28D7B7ED0044E544 /* CreateTODOView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +191,9 @@
 				50DA7CC728D68CC70010FA4E /* SearchBarView.swift */,
 				508949E728D75D420044E544 /* TODOButtonStack.swift */,
 				508949E928D764CA0044E544 /* AddTODOLogo.swift */,
+				508949EB28D79DD90044E544 /* TODOView.swift */,
+				508949ED28D7B0E40044E544 /* BlankView.swift */,
+				508949F328D7C0AA0044E544 /* CustomTextEditor.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -196,6 +210,7 @@
 		507E137228C50FD500D81784 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
+				508949F128D7BEAD0044E544 /* TODOTextField.swift */,
 				507E137028C5023000D81784 /* CustomTextField.swift */,
 				507E137328C5100300D81784 /* EmailTextField.swift */,
 				507E137528C51D0600D81784 /* CustomSecureField.swift */,
@@ -302,6 +317,8 @@
 			files = (
 				5083DCDE28C922FB005136DC /* AppUser.swift in Sources */,
 				507E137428C5100300D81784 /* EmailTextField.swift in Sources */,
+				508949F028D7B7ED0044E544 /* CreateTODOView.swift in Sources */,
+				508949EC28D79DD90044E544 /* TODOView.swift in Sources */,
 				507E137128C5023000D81784 /* CustomTextField.swift in Sources */,
 				5083DCE428C941F9005136DC /* MockData.swift in Sources */,
 				507E137C28C6748C00D81784 /* UserTextField.swift in Sources */,
@@ -309,10 +326,12 @@
 				507E136B28C4F29700D81784 /* SignupView.swift in Sources */,
 				5083DCE028C9252D005136DC /* TODO.swift in Sources */,
 				5083DCE828C96222005136DC /* DashboardView.swift in Sources */,
+				508949F228D7BEAD0044E544 /* TODOTextField.swift in Sources */,
 				5083DCE628C944C1005136DC /* AuthViewModel.swift in Sources */,
 				508949E828D75D420044E544 /* TODOButtonStack.swift in Sources */,
 				50DA7CC828D68CC70010FA4E /* SearchBarView.swift in Sources */,
 				507E136F28C4F60700D81784 /* LogoView.swift in Sources */,
+				508949F428D7C0AA0044E544 /* CustomTextEditor.swift in Sources */,
 				507E137828C51EC200D81784 /* PasswordSecureField.swift in Sources */,
 				507E136728C4F1AF00D81784 /* LoginView.swift in Sources */,
 				5083DCDC28C9217E005136DC /* Constants.swift in Sources */,
@@ -320,6 +339,7 @@
 				507E135728C4E2E000D81784 /* ContentView.swift in Sources */,
 				5083DD3728CA5931005136DC /* TODOViewModel.swift in Sources */,
 				507E136D28C4F3A900D81784 /* BackgroundGradientView.swift in Sources */,
+				508949EE28D7B0E40044E544 /* BlankView.swift in Sources */,
 				507E137628C51D0600D81784 /* CustomSecureField.swift in Sources */,
 				507E135528C4E2E000D81784 /* AllDoneApp.swift in Sources */,
 				508949EA28D764CA0044E544 /* AddTODOLogo.swift in Sources */,
